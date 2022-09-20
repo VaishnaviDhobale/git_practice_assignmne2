@@ -1,10 +1,14 @@
+let count=0;
 function prime(num){
-  for(let i=0;i<=Math.sqrt(num);i++){
+  for(let i=0;i<=num;i++){
     if(num%i==0){
-      return "not prime"
+      count++
     }
-    return "prime"
   }
+  if(count==2){
+    return true
+  }
+  return false
 }
-let data=prime(20);
+let data=prime(2);
 console.log(data)
