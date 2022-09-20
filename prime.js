@@ -1,3 +1,4 @@
+
 function prime(num){
   if(num<=1){
     return "not prime";
@@ -11,3 +12,4 @@ function prime(num){
 }
 let data=prime(20);
 console.log(data);
+
